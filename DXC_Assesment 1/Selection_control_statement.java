@@ -70,6 +70,10 @@ public class Selection_control_statement {
 				}
 			}
 		}
+		else
+		{
+			System.out.println("Your are Not Eligible for loan");
+		}
 
 
 	}
