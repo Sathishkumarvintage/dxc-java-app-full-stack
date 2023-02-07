@@ -69,18 +69,26 @@ public class courseregistration {
 	public void setHostelreq(boolean hostelreq) {
 		this.hostelreq = hostelreq;
 	}
-	public void validatemark()
+	public boolean validatemark()
 	{
-		if(getMark()<65)
+		if(Mark<65)
 		{
-			System.out.println("Your mark is Less than 65 your are not eligible for admission");
+			return false;
+		}
+		else
+		{
+			return true;
 		}
 	}
-	public void validatecourseid()
+	public boolean validatecourseid()
 	{
 		if(getCourseid()<1001 && getCourseid()>1005)
 		{
-			System.out.println("Invalid course Id please try again");
+			return false;
+		}
+		else
+		{
+			return true;
 		}
 	}
 	public double coursefees()
