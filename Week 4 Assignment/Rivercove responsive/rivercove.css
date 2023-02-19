@@ -1,0 +1,90 @@
+body{
+   
+    border-style: groove;
+    width: 100%;
+}
+h1{
+    color: beige;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.space{
+    list-style-type: none;
+
+}
+.space a{
+    line-height: 35px;
+}
+
+#font a{
+     text-decoration: none;
+     
+     padding: 2px;
+     
+}
+h2{
+    color: #3399cc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+dt{
+    font-weight: bold;
+    color: #000033;
+    font-size: 1.2em;
+    padding: 5px;
+}
+header{
+    background-image: url(image/img1.jpg);
+    background-repeat: no-repeat;
+    padding: 3px;
+    background-size: 37cm;
+    height: auto;
+    width: 100%;
+}
+div.img{
+    background-image: url(image/img2.webp);
+    background-repeat: no-repeat;
+    background-size: 37cm;
+    padding: 250px;
+    height: auto;
+    width: 100%;
+}
+footer{
+    text-align: center;
+
+}
+main{
+    margin-left: 10px;
+}
+h3{
+    color: #000033;
+}
+div.img1{
+    background-image: url(image/img5.webp);
+    background-repeat: no-repeat;
+    padding: 250px;
+    background-size:37cm;
+    height: auto;
+    width: 100%;
+}
+div.img2{
+    background-image: url(image/img3.jpg);
+    background-repeat: no-repeat;
+    padding: 250px;
+    background-size: 37cm;
+    height: auto;
+    width:100%;
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover{
+    background-color: #555;
+}
+nav a:active{
+    color: #3399cc;
+}

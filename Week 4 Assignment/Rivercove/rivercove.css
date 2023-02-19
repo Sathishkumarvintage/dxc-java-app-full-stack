@@ -1,0 +1,83 @@
+body{
+   
+    border-style: groove;
+}
+h1{
+    color: beige;
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.space{
+    list-style-type: none;
+
+}
+.space a{
+    line-height: 35px;
+}
+
+#font a{
+     text-decoration: none;
+     
+     padding: 5px;
+     
+}
+.box{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.box .font1{
+    width: 25%;
+    background-color: #3399cc;
+}
+.box .font{
+    width:75%;
+}
+h2{
+    color: #3399cc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+dt{
+    font-weight: bold;
+    color: #000033;
+    font-size: 1.2em;
+    padding: 5px;
+}
+header{
+    background-image: url(image/img1.jpg);
+    background-repeat: no-repeat;
+    padding: 3px;
+    background-size: 40cm;
+}
+div.img{
+    background-image: url(image/img2.webp);
+    background-repeat: no-repeat;
+    background-size: 30cm;
+    padding: 220px;
+}
+footer{
+    text-align: center;
+
+}
+main{
+    margin-left: 10px;
+}
+h3{
+    color: #000033;
+}
+div.img1{
+    background-image: url(image/img5.webp);
+    background-repeat: no-repeat;
+    padding: 220px;
+    background-size: 30cm;
+}
+div.img2{
+    background-image: url(image/img3.jpg);
+    background-repeat: no-repeat;
+    padding: 220px;
+    background-size: 30cm;
+}
