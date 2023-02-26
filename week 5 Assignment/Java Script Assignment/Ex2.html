@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Employee Details </title>
+		<style>
+			div{
+				height: 150px;
+ width: 300px;
+ border: 1px solid #0b0b0c;
+ text-align: left;
+ font-family: calibri;
+ font-size: 30;
+ padding: 10px 0px 0px 40px;
+			}
+		</style>
+    </head>
+    <body>
+		<div>
+        <script>
+            class person {
+	constructor(name, age) {
+		this.name = name;
+		this.age = age;
+	}
+}
+class employee extends person {
+	constructor(name, age, role, contact) {
+		super(name, age); 
+		this.role = role;
+		this.contact = contact;
+	}
+	getDetails() 
+    {
+        document.write("The Deatail of the Employee are :<br><br>")
+		document.write(`Name :${this.name}<br> Age :${this.age}<br> Role :${this.role}<br> Phono No :${this.contact}`);
+	}
+}
+let c = new employee("Beron", "24", "Technology Analyst", "9001234567");
+c.getDetails();
+        </script>
+		</div>
+    </body>
+</html>

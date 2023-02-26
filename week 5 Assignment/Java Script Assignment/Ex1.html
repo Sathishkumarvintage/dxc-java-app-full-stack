@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Booking Summary</title>
+ <style>
+ div#maincontent {
+ height: 250px;
+ width: 500px;
+ border: 1px solid #CEE2FA;
+ text-align: left;
+ color: #08438E;
+ font-family: calibri;
+ font-size: 20;
+ padding: 5px;
+ }
+ div#heading {
+ text-decoration: bold;
+ text-align: center;
+ margin-top: 80px;
+ width: 500px;
+ border: 1px solid #CEE2FA;
+ text-align: center;
+ color: #08438E;
+ background-color: #CEE2FA;
+ font-family: calibri;
+ font-size: 20;
+ padding: 5px;
+ }
+ h2 {
+ padding: 0;
+ margin: 0;
+ }
+ </style>
+</head>
+<body>
+ <center>
+ <div id="heading">
+ <h2>Booking Summary</h2>
+ </div>
+ <div id="maincontent">
+ <script>
+  var seat=prompt("Enter no fo seat :");
+  document.write("Actual cost per ticket :$9<br><br>");
+  document.write("4 seat are eligible for festive discount !!<br><br>");
+  if(seat==1)
+  {
+    document.write("Amount Payable :$9<br>");
+  }
+  else if(seat<=5){
+  for(var i=1;i<=seat.valueOf();i++)
+  {
+       if(i==1)
+       {
+        document.write("5% discount! on ticket 1<br>");
+       }
+       else if(i==2)
+       {
+        document.write("7% discount! on ticket 2<br>");
+       }
+       else if(i==3)
+       {
+        document.write("9% discount! on ticket 3<br>");
+       }
+       else if(i==4)
+       {
+        document.write("11% discount! on ticket 4<br>");
+       }
+  }
+  if(seat==2)
+  {
+    var amt1=9-9*5/100;
+    var amt2=9-9*7/100;
+    var amt=amt1+amt2;
+    document.write("<br>Amount payable :$",amt);
+  }
+  else if(seat==3)
+  {
+    var amt1=9-9*5/100;
+    var amt2=9-9*7/100;
+    var amt3=9-9*9/100;
+    var amt=amt1+amt2+amt3;
+    document.write("<br>Amount payable :$",amt);
+  }
+  else if(seat==4)
+  {
+    var amt1=9-9*5/100;
+    var amt2=9-9*7/100;
+    var amt3=9-9*9/100;
+    var amt4=9-9*11/100;
+    var amt=amt1+amt2+amt3+amt4;
+    document.write("<br>Amount payable :$",amt);
+  }
+  else if(seat==5)
+  {
+    var amt1=9-9*5/100;
+    var amt2=9-9*7/100;
+    var amt3=9-9*9/100;
+    var amt4=9-9*11/100;
+    var amt=amt1+amt2+amt3+amt4+8.01;
+    document.write("<br>Amount payable :$",amt);
+  }
+}
+else{
+    document.write("<br>More than 6 booking ticket is not allowed ");
+}
+  
+ </script>
+ </div>
+ </center>
+</body>
+</html>
